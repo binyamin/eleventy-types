@@ -17,6 +17,8 @@ Todo: Check that this list is complete & up-to-date
 - [ ] `jsDataFileSuffix`
 
 ## Config Parameter
+Todo: finish this list
+- [x] `addPlugin`
 
 ## Plugin Helpers
 Plugins get an augmented _Config_ parameter

@@ -1,5 +1,4 @@
-type Helpers = any;
-type Options = Record<string, any>;
+import {Helpers, Options} from "./config"
 
 /**
  * @module 11ty/eleventy
