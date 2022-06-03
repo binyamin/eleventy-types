@@ -8,10 +8,10 @@ Todo: Check that this list is complete & up-to-date
     - [x] `dir.layouts`
     - [x] `dir.data`
     - [x] `dir.output`
-- [ ] `dataTemplateEngine`
-- [ ] `markdownTemplateEngine`
-- [ ] `htmlTemplateEngine`
-- [ ] `templateFormats`
+- [x] `dataTemplateEngine`
+- [x] `markdownTemplateEngine`
+- [x] `htmlTemplateEngine`
+- [x] `templateFormats`
 - [ ] `pathPrefix`
 - [ ] `htmlOutputSuffix`
 - [ ] `jsDataFileSuffix`
@@ -19,6 +19,7 @@ Todo: Check that this list is complete & up-to-date
 ## Config Parameter
 Todo: finish this list
 - [x] `addPlugin`
+- [ ] `setTemplateFormats`
 
 ## Plugin Helpers
 Plugins get an augmented _Config_ parameter
