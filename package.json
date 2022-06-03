@@ -1,0 +1,30 @@
+{
+  "name": "eleventy-types",
+  "description": "",
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": [],
+  "author": "Binyamin Aron Green (https://binyam.in/)",
+  "main": "helpers.js",
+  "exports": {
+    ".": "./src/index.d.ts",
+    "./helpers": "./helpers.js"
+  },
+  "files": [
+    "src/",
+    "helpers.js",
+    "helpers.d.ts"
+  ],
+  "scripts": {
+    "print-fields": "node helpers/eleventy-config.mjs",
+    "check-field": "eleventy --config=helpers/.eleventy.cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "1.0.1",
+    "@sindresorhus/is": "^4.4.0"
+  },
+  "peerDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
