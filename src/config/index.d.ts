@@ -1,4 +1,8 @@
-export interface Helpers {
+import Shortcodes from "./shortcodes";
+import Filters from "./filters";
+import Events from './events';
+
+export interface Helpers extends Shortcodes, Filters, Events {
     // Note - `addPlugin` cannot use our own `Plugin` type,
     // since that would only cover plugins which used our
     // particular config typedefs
